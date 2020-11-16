@@ -120,4 +120,4 @@ print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
 cv2.destroyAllWindows()
 vs.stop()
 
-#python Reconocedor.py -c 0.8 --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+#python3 Reconocedor.py -c 0.8 --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel

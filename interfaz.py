@@ -81,12 +81,12 @@ def salir():
 window.protocol("WM_DELETE_WINDOW", salir)
 #Definir botones
 #Botón 1
-btn1 = Button(window, text="Iniciar tranmisión", font=20, padx=10, pady=15, bg="white", fg="black", command=iniciar_transmision)
+btn1 = Button(window, text="Iniciar transmisión", font=20, padx=10, pady=15, bg="white", fg="black", command=iniciar_transmision)
 btn1.place(x=60, y=150)
 btn1.config(state=NORMAL)
 
 #Botón 2
-btn2 = Button(window, text="Terminar tranmisión", font=20, padx=10, pady=15, bg="white", fg="black", command=terminar_tranmision)
+btn2 = Button(window, text="Terminar transmisión", font=20, padx=10, pady=15, bg="white", fg="black", command=terminar_tranmision)
 btn2.place(x=580, y=150)
 
 #Botón 3

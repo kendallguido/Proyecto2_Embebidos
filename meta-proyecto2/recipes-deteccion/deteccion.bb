@@ -13,7 +13,7 @@ LICENSE = "CLOSED"
 LIC_FILES_CHKSUM = ""
 
 # No information for SRC_URI yet (only an external source tree was specified)
-SRC_URI = "file://deteccion.py \
+SRC_URI = "file://Reconocedor.py \
            file://MobileNetSSD_deploy.caffemodel \ 
            file://MobileNetSSD_deploy.prototxt.txt" 
 
@@ -25,7 +25,7 @@ TARGET_CC_ARCH += "${LDFLAGS}"
 
 do_install () {
     	install -d ${D}${bindir}
-    	install -m 0755 deteccion.py ${D}${bindir}
+    	install -m 0755 Reconocedor.py ${D}${bindir}
         install -m 0755 MobileNetSSD_deploy.caffemodel ${D}${bindir}
         install -m 0755 MobileNetSSD_deploy.prototxt.txt ${D}${bindir}
 }
